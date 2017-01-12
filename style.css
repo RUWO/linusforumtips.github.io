@@ -1,0 +1,94 @@
+h1 {
+font-size: 48px;
+  margin: auto;
+}
+h3
+{
+  font-size: 36px;
+    margin: auto;
+}
+h5{
+  font-size: 24px;
+    margin: auto;
+}
+
+blockquote {
+  font-size: 24px;
+      margin: auto;
+}
+p{
+  font-size: 24px;
+    margin: auto;
+}
+body
+{
+  background: #383942;
+  color: #ff3300;
+  text-align: center;
+  font-family: 'Calibri', cursive;
+}
+
+button {
+  height: 50px;
+  width: 180px;
+  background: #383942;
+  color: #ff3300;
+  font-size: 16px;
+}
+
+button: hover {
+background: #ff3300;
+color: #FFFFFF;
+}
+
+.header {
+margin: auto;
+text-align: center;
+}
+
+.navigation {
+  height: 200px;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+#uwp1 {
+  margin-left:200px;
+float: left;
+}
+
+#imgdesc {
+  float: none;
+  margin-left: -200px;
+}
+
+#showcase{
+  width:  auto;
+  height: 1000px;
+
+}
+
+#notes {
+  font-size: 16px;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: medium;
+}
+
+th{
+  margin: auto;
+  text-align: center;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: medium;
+}
+
+strong {
+  font-size: 16px;
+}
