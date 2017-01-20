@@ -1,11 +1,13 @@
 h1 {
 font-size: 70px;
   margin: auto;
+  
 }
 h3
 {
   font-size: 36px;
-    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 h5{
   font-size: 24px;
@@ -27,8 +29,8 @@ body
 {
 
   background:scroll;
-  background-image: url("file:assets/ghost-tile.jpg");
-  color: #ff471a;
+  background-image: url("file:assets/pcb.jpg");
+  color: #f57f17;
   text-align: center;
   font-family: 'Calibri', cursive;
 }
@@ -36,11 +38,11 @@ body
 button {
   height: 50px;
   width: 180px;
-  background-color: #004A48;
-  color: #F7630C;
+  background-color: #303030;
+  color: #f57f17;
   font-size: 16px;
   margin-top: 10px;
-  border-color: #4C4A48;
+  border-color: #303030;
   margin-left: 50px;
   border-radius: 15px;
 }
@@ -50,33 +52,56 @@ margin-top:auto;
  }
 
 #button_row{
-background-color: #005653;
+background-color: #424242;
 height: 70px;
 width: auto;
 margin-bottom: 100px;
  }
  
 img{
-margin-top: 30px;
+margin-top: 90px;
 margin-left: 30px;
  }
  
+ #scale{
+ height: 480px;
+  }
+  
+ #app-comparison{
+ height: 620px;
+  }
+  
+ #testimonials{
+ height: 200px;
+  }
+  
+ #downloads{
+ height: 400px;
+  }
+ 
 .showcase{
-background-color: #004A48;
+background-color: #303030;
 margin: 50px;
+width: auto;
+height: 900px;
  }
-
+.table{
+margin-top: 30px;
+ }
+ 
 a{
-color: #F7630C;
+color: #f57f17;
  }
 
 .header {
 margin: auto;
 text-align: center;
-background-color: #004A48;
+background-color: #303030;
 height: 150px;
 
 }
+
+
 
 .navigation {
   height: 200px;
@@ -95,11 +120,6 @@ float: left;
   margin-left: -200px;
 }
 
-.showcase{
-  width:  auto;
-  height: 1000px;
-
-}
 
 #notes {
   font-size: 16px;
@@ -109,16 +129,18 @@ table {
   margin: auto;
   text-align: center;
   border-style: solid;
-  border-color: #ff471a;
+  border-color: #f57f17;
   border-width: 10px;
   border-collapse: collapse;
+  width: 1000px;
+  margin-top: 0px;
 }
 
 th{
   margin: auto;
   text-align: center;
   border-style: solid;
-  border-color: #ff471a;
+  border-color: #f57f17;
   border-width: 6px;
 }
 
