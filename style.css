@@ -1,5 +1,5 @@
 h1 {
-font-size: 48px;
+font-size: 70px;
   margin: auto;
 }
 h3
@@ -25,7 +25,9 @@ p{
 }
 body
 {
-  background: #383942;
+
+  background:scroll;
+  background-image: url("file:assets/ghost-tile.jpg");
   color: #ff471a;
   text-align: center;
   font-family: 'Calibri', cursive;
@@ -34,14 +36,46 @@ body
 button {
   height: 50px;
   width: 180px;
-  background: #383942;
-  color: #ff471a;
+  background-color: #004A48;
+  color: #F7630C;
   font-size: 16px;
+  margin-top: 10px;
+  border-color: #4C4A48;
+  margin-left: 50px;
+  border-radius: 15px;
 }
+
+.text_box{
+margin-top:auto;
+ }
+
+#button_row{
+background-color: #005653;
+height: 70px;
+width: auto;
+margin-bottom: 100px;
+ }
+ 
+img{
+margin-top: 30px;
+margin-left: 30px;
+ }
+ 
+.showcase{
+background-color: #004A48;
+margin: 50px;
+ }
+
+a{
+color: #F7630C;
+ }
 
 .header {
 margin: auto;
 text-align: center;
+background-color: #004A48;
+height: 150px;
+
 }
 
 .navigation {
@@ -52,7 +86,7 @@ text-align: center;
 }
 
 #uwp1 {
-  margin-left:200px;
+  margin-left:150px;
 float: left;
 }
 
@@ -75,16 +109,17 @@ table {
   margin: auto;
   text-align: center;
   border-style: solid;
-  border-color: #FFFFFF;
-  border-width: medium;
+  border-color: #ff471a;
+  border-width: 10px;
+  border-collapse: collapse;
 }
 
 th{
   margin: auto;
   text-align: center;
   border-style: solid;
-  border-color: #FFFFFF;
-  border-width: medium;
+  border-color: #ff471a;
+  border-width: 6px;
 }
 
 strong {
